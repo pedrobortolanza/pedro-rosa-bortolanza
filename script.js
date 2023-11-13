@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', function () {
     <label for="telefone">Telefone:</label>
     <input type="text" id="telefone" required>
     <label for="area">Área (m²):</label>
-    <input type="text" id="area" required>
+    <input type="number" id="area" required>
     <label for="quartos">Nº Quartos:</label>
-    <input type="text" id="quartos" required>
+    <input type="number" id="quartos" required>
     <label for="disponibilidade">Disponibilidade:</label>
     <input type="text" id="disponibilidade" required>
     <button type="button" onclick="addRow()">Adicionar</button>
